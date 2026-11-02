@@ -218,3 +218,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Données Bloomberg : ne JAMAIS publier
+data/
+*.xlsx
+
+# Poids des réseaux entraînés (trop lourds, inutiles sur GitHub)
+results/models/
+*.pt
+*.pth
+
+# Fichiers système / éditeurs
+.DS_Store
+.vscode/
+.idea/

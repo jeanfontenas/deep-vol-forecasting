@@ -1,0 +1,21 @@
+# Données
+numpy>=1.26
+pandas>=2.1
+pyarrow>=14.0
+openpyxl>=3.1
+
+# Deep learning
+torch>=2.2
+
+# Statistiques / économétrie (HAR, Diebold-Mariano, Newey-West)
+statsmodels>=0.14
+scipy>=1.11
+
+# Config, figures, utilitaires
+pyyaml>=6.0
+matplotlib>=3.8
+tqdm>=4.66
+
+# Notebooks et tests
+ipykernel>=6.29
+pytest>=8.0
